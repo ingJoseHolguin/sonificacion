@@ -9,7 +9,53 @@ Sigue estos pasos para instalar y ejecutar el programa en Python:
 1. Clona este repositorio en tu máquina local:
 
 ```bash
-git clone https://github.com/tu_usuario/tu_repositorio.git
-cd tu_repositorio
+git clone https://github.com/ingJoseHolguin/sonificacion.git
 
+
+```
+
+Crea un entorno virtual:
+
+```bash
+python -m venv venv
+
+```
+
+o
+
+```bash
+py -m venv venv
+
+```
+
+Activa el entorno virtual:
+
+En Windows:
+
+```bash
+bashCopiarvenv\Scripts\activate
+```
+
+En macOS/Linux:
+
+```bash
+bashCopiarsource venv/bin/activate
+```
+
+Instala las dependencias del proyecto desde el archivo requirements.txt:
+
+```bash
+pip install -r requirements.txt
+```
+
+Ejecuta el programa principal:
+
+```bash
+python main.py
+```
+
+o
+
+```bash
+py main.py
 ```
