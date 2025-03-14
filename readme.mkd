@@ -1,0 +1,35 @@
+# Instalación del Proyecto
+
+Sigue estos pasos para instalar y ejecutar el programa en Python:
+
+1. Clona este repositorio en tu máquina local:
+
+```bash
+git clone https://github.com/tu_usuario/tu_repositorio.git
+cd tu_repositorio
+
+Crea un entorno virtual:
+
+bashCopiarpython -m venv venv
+
+Activa el entorno virtual:
+
+En Windows:
+bashCopiarvenv\Scripts\activate
+En macOS/Linux:
+bashCopiarsource venv/bin/activate
+
+Instala las dependencias del proyecto desde el archivo requirements.txt:
+
+bashCopiarpip install -r requirements.txt
+
+Ejecuta el programa principal:
+
+bashCopiarpython main.py
+
+Para salir del entorno virtual cuando termines:
+
+bashCopiardeactivate
+
+
+```
